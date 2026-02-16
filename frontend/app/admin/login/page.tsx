@@ -32,7 +32,7 @@ export default function AdminLoginPage() {
       // TEMP: replace with Supabase / backend later
       if (email === 'admin@zlot.in' && password === 'admin123') {
         localStorage.setItem('zlot_admin', 'true')
-        router.push('/admin/dashboard')
+        router.replace('/admin/dashboard')
       } else {
         setError('Invalid admin credentials')
       }

@@ -1,0 +1,9 @@
+{
+  "devices": {
+    "device_001": {
+      "command": "LOCK",
+      "status": "LOCKED",
+      "lastUpdated": 0
+    }
+  }
+}

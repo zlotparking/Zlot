@@ -2,8 +2,8 @@ const express = require('express')
 
 const router = express.Router()
 
-router.get('/status', (req, res) => {
-  res.json({ ok: true })
+router.get('/', (req, res) => {
+  res.json({ items: [] })
 })
 
 module.exports = router
